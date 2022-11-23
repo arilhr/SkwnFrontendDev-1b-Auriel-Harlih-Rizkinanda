@@ -1,6 +1,6 @@
 # 1B - SkwnFrontendDev
 
-LINK DEPLOYMENT:
+LINK DEPLOYMENT: https://finance-app-mu.vercel.app/
 
 ## HOW TO START THE PROJECT:
 
