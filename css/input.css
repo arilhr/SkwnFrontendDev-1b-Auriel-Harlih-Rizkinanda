@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .services-item {
+    @apply bg-blue-100 w-[48px] h-[48px] rounded-full flex justify-center items-center text-blue-500 cursor-pointer hover:bg-blue-500 hover:text-blue-100 transition-all;
+  }
+
+  .activity-item {
+    @apply w-full p-4 min-h-[30px] shadow-[0_2px_4px_rgba(0,0,0,0.3)] rounded-lg flex gap-4 cursor-pointer hover:bg-blue-50 transition-all;
+  }
+
+  .activity-icon {
+    @apply w-[48px] h-[48px] rounded-full flex justify-center items-center;
+  }
+
+  .navbar-item {
+    @apply w-[48px] h-[48px] flex flex-col justify-center items-center text-neutral-500 hover:text-blue-500 cursor-pointer transition-all;
+  }
+
+  .navbar-item.active {
+    @apply text-blue-500;
+  }
+
+  .navbar-item-dot {
+    @apply rounded-full bg-neutral-500 group-hover:bg-blue-500 group-[.active]:bg-blue-500 group-[.active]:w-1 group-[.active]:h-1 transition-all;
+  }
+}
